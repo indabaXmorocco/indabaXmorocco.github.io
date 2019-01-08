@@ -142,6 +142,30 @@ jQuery(document).ready(function( $ ) {
     modal.find('#ticket-type').val(ticketType);
   })
 
-// custom code
+var images = Array("img/intro/1.jpg",
+               "img/intro/2.jpg",
+               "img/intro/3.jpg");
+var curring = 1;
+    function loading(){
+      $('#intro').animate({ opacity: 1 }, 500,function(){
+           //finished animating, minifade out and fade new back in           
+           $('#intro').animate({ opacity: 0.7 }, 100,function(){
+               curring++;
+               if(curring > images.length-1){
+                   curring=0;
+               }
+               var newimage = images[curring];
+               //swap out bg src                
+               $('#intro').css("background-image", "url("+newimage+")"); 
+               //animate fully back in
+               $('#intro').animate({ opacity: 1 }, 400,function(){
+                   //set timer for next
+                   setTimeout(loading,4000);
+               });
+           });
+       });
+     }
+     setTimeout(loading,4000);
+   });
+   loading();
 
-});

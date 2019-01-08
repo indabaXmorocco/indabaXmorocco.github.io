@@ -469,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/intro/1.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -513,7 +513,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 #intro h1 span {
@@ -600,7 +599,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
 }
 
-#intro .about-btn {
+#intro .about-btn, .poster-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -615,6 +614,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f82249;
+}
+
+#intro .poster-btn{
+  border: 2px solid #19328e;
+}
+
+#intro .poster-btn:hover {
+  background: #19328e;
+  color: #fff;
 }
 
 #intro .about-btn:hover {
@@ -694,12 +702,85 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+
+/*--------------------------------------------------------------
+# Tutorials Section
+--------------------------------------------------------------*/
+#tutorials {
+  padding: 60px 0 60px 0;
+}
+
+#tutorials h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #19328e;
+  margin: 0%;
+}
+
+#tutorials .tuto-author{
+  font-style: italic;
+  margin: 1%;
+}
+
+.tuto-content p {
+  margin: 0%;
+}
+
+
+/*--------------------------------------------------------------
+# Awards Section
+--------------------------------------------------------------*/
+#awards {
+  padding: 60px 0 60px 0;
+}
+
+#awards h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f82249;
+  margin: 1%;
+}
+
+#awards li {
+  font-weight: 400;
+  color:#0e1b4d;
+}
+
+#tutorials .tuto-author{
+  font-style: italic;
+  margin: 1%;
+}
+
+.tuto-content p {
+  margin: 0%;
+}
+
+
+/*--------------------------------------------------------------
+# Keynotes Section
+--------------------------------------------------------------*/
+#keynotes {
+  padding: 60px 0 30px 0;
+}
+
+#keynotes .section-header {
+  margin: 1%;
+}
+
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
-
 #speakers {
   padding: 60px 0 30px 0;
+}
+
+#speakers h1 {
+  text-align: center;
+}
+
+#speakers .section-header {
+  margin: 2%;
 }
 
 #speakers .speaker {
@@ -790,6 +871,45 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
+
+/*--------------------------------------------------------------
+# Registration Section
+--------------------------------------------------------------*/
+
+#registration {
+  padding: 60px 0 60px 0;
+}
+
+
+#registration a {
+  text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# News Section
+--------------------------------------------------------------*/
+
+#news {
+  padding: 60px 0 60px 0;
+}
+
+#news h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #19328e;
+  margin: 0%;
+}
+
+#news .date-author{
+  font-style: italic;
+  margin: 0%;
+}
+
+.news-content p {
+  margin: 0%;
+}
+
 
 /*--------------------------------------------------------------
 # Schedule Section
@@ -1621,6 +1741,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 60px;
   }
+}
+
+.dropdown-item {
+  display: block !important;
+}
+
+.dropdown-menu {
+  background-color: rgba(6, 12, 34, 0.98);
+}
+
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color:  rgba(21, 20, 29, 0.98)  !important;
 }
 
 @media (max-width: 768px) {
