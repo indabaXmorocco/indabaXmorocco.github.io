@@ -954,11 +954,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .tab-pane {
-<<<<<<< HEAD
+
   transition: ease-in-out .4s;
-=======
+
   transition: ease-in-out .2s;
->>>>>>> 8d834f5c84168922e222833c071291345099e007
+
 }
 
 #schedule .schedule-item {
@@ -966,11 +966,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
-<<<<<<< HEAD
+
   white-space: nowrap;
 
-=======
->>>>>>> 8d834f5c84168922e222833c071291345099e007
+
 }
 
 #schedule .schedule-item:hover {
@@ -980,10 +979,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
-<<<<<<< HEAD
   white-space: nowrap;
-=======
->>>>>>> 8d834f5c84168922e222833c071291345099e007
+
 }
 
 #schedule .schedule-item .speaker {
@@ -1223,11 +1220,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-<<<<<<< HEAD
   height: 200px;
-=======
   height: 160px;
->>>>>>> 8d834f5c84168922e222833c071291345099e007
 }
 
 #sponsors .sponsor-logo:hover img {
@@ -1236,11 +1230,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #sponsors img {
-<<<<<<< HEAD
   transition: all 0.6s ease-in-out;
-=======
   transition: all 0.4s ease-in-out;
->>>>>>> 8d834f5c84168922e222833c071291345099e007
 }
 
 /*--------------------------------------------------------------
