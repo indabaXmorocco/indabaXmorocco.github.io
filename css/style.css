@@ -1221,7 +1221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 200px;
-  height: 160px;
+  
 }
 
 #sponsors .sponsor-logo:hover img {
