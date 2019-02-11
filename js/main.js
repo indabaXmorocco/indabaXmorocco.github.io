@@ -142,10 +142,10 @@ jQuery(document).ready(function( $ ) {
     modal.find('#ticket-type').val(ticketType);
   })
 
-var images = Array("img/intro/morocco-africa.png",
+var images = Array(
                "img/intro/1.jpg",
-               "img/intro/2.jpg",
-               "img/intro/3.jpg");
+               "img/intro/1.jpg",
+               "img/intro/1.jpg");
 var curring = 1;
     function loading(){
       $('#intro').animate({ opacity: 1 }, 500,function(){
