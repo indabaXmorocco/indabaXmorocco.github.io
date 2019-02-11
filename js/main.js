@@ -143,10 +143,10 @@ jQuery(document).ready(function( $ ) {
   })
 
 var images = Array(
-               "img/intro/morocco-africa.png"
-               "img/intro/1.jpg",
+               "img/intro/1.jpg"
                "img/intro/2.jpg",
-               "img/intro/3.jpg");
+               "img/intro/3.jpg",
+               "img/intro/4.jpg");
 var curring = 1;
     function loading(){
       $('#intro').animate({ opacity: 1 }, 500,function(){
