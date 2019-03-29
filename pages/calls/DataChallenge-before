@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>IndabaX Morocco</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicons -->
+    <link href="../../img/icon.png" rel="icon" />
+    <link href="../../img/iconH.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS File -->
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link
+      href="../../lib/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="../../lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="../../lib/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="../../lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet File -->
+    <link href="../../css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+  </head>
+  <body>
+    <!--==========================
+    Header
+  ============================-->
+    <header id="header" class="header-fixed">
+      <div class="container">
+        <div id="logo" class="pull-left">
+          <!-- Uncomment below if you prefer to use a text logo -->
+          <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+          <a href="../../index.html" class="scrollto"
+            ><img src="../../img/logo.png" alt="" title=""
+          /></a>
+        </div>
+
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../participate.html">Why participate</a></li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Event
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="../event/committees.html"
+                  >Committees</a
+                >
+                <a class="dropdown-item" href="../event/keynotes.html"
+                  >Keynotes</a
+                >
+                <a class="dropdown-item" href="../event/tutorials.html"
+                  >Tutorials</a
+                >
+                <a class="dropdown-item" href="../event/awards.html">Awards</a>
+              </div>
+            </li>
+            <li class="dropdown menu-active">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Calls
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="papers.html">Call for papers</a>
+                <a class="dropdown-item" href="#">Call for 3MT</a>
+                <a class="dropdown-item " href="demos.html">Call for Demos</a>
+                <a class="dropdown-item active" href="#">Call for Data challenge</a>
+                <a class="dropdown-item" href="tutorials.html">Call for Tutorials</a>
+              </div>
+            </li>
+            <li><a href="../program.html">Program</a></li>
+            <li><a href="../registration.html">Registration</a></li>
+            <li><a href="../sponsorship.html">Sponsorship</a></li>
+            <li><a href="../venue.html">Venue</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
+
+    <main id="main" class="main-page">
+    <!--==========================
+      tutorials Section
+    ============================-->    
+    <section class="wow fadeInUp">
+        <br></br>
+        <div class="container">
+
+          <div class="section-header">
+            <h2>Call for Data Challenge</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-7">
+                <div class="container wow fadeInUp">
+                  <div class="section-content">
+                      <p>
+                        Deep learning IndabaXMorocco is launching a Data Challenge to offer an opportunity to learn and test ML skills on a real-case problem. One of the goals is to involve anyone interested in ML (especially undergraduate students) in this event.
+                      </p>
+                      <p>
+                        For this edition, the organizing committee chose <a href="https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/page/107/">DrivenData’s warm up challenge: Machine Learning with a Heart.</a>
+                        This challenge is a simple ML challenge with scarce data that pushes competitors to test several ML methods, not only deep learning methods, we hope that this will encourage all ML practitioners to participate despite of their level.
+                      </p>
+                      
+                        <h4>Rules of participation</h4>
+                     
+                      <p>
+                        You can compete individually or form a team. Each team is to be composed of at most three people. 
+                        You must name your team by concatenating the chosen name + IXM, example: TeamName-IXM.
+                        At least one of the members should be able to attend IndabaXMorocco (29-30 April) in case they won.
+                      </p>
+                      <h4>How to Participate?</h4>
+                      <ol>
+                        <li><b>Register on Drivendata plateform </b>: go to <a href="https://www.drivendata.org">DrivenData</a>
+                             </li>
+                        <li><b>Join the competition </b>: go to <a href="https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/page/107/">Machine Learning with a Heart</a>
+                             </li>
+                        <li><b>Register on IndabaX Morocco</b>: by clicking on the button on the top-right of this page. You will need informations from your DrivenData account.
+                             </li>
+                         <li><b>Submit your result</b>: At the end of the competition we will allow you to submit your best score.</li>
+                      </ol>
+
+
+                        <h4>Results and prizes</h4>
+                      <p>
+                        At the end of the competition, the IndabaXMorocco website will show a form where the teams must send:
+                        <ol>
+                            <li> <b>Their rank</b> in the leaderboard and their score</li>
+                            <li> <b>The code</b> used to generate the .csv submission file</li>
+                        </ol>
+                      </p>
+                      <p>
+                        During the IndabaXMorocco main event, a special session will be organized where the <b>three winning solutions</b> to the Data Challenge will be presented. All the winners will be <b>granted a special invitation to IndabaXMorocco’s main conference</b>, where they can learn much more about the state of AI research and industry in Morocco and hopefully make new connections that will boost their careers. <b>A special prize</b> will be offered to the winner team.    
+                      </p>
+                      
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+              <section id="schedule" class="section-with-bg">
+                <div class="container wow fadeInUp">
+                  <div class="section-header">
+                    <h2>
+                      <a
+                        href="#"
+                        class="btn btn-outline-primary btn-lg"
+                        >Register to Participate</a
+                      >
+                    </h2>
+                  </div>
+                  <div class="section-header">
+                    <center>
+                      <h3>Important dates</h3></center>
+
+                      <div class="tab-content row justify-content-center">
+                        <!-- Schdule Day 1 -->
+                        <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+                            <div class="row schedule-item">
+                                <div class="col-md-5"><time><h6>April 21, 2019
+</h6></time></div>
+                                <div class="col-md-7">
+                                    <h6><b>Submission deadline</b></h6>
+                                  <p> </p>
+                                </div>
+                             </div>
+
+                          <div class="row schedule-item">
+                              <div class="col-md-5"><time><h6>April 21, 2019</h6></time></div>
+                              <div class="col-md-7">
+                                  <h6><b>Acceptance notification</b></h6>
+                                <p> </p>
+                              </div>
+                           </div>
+
+                           <div class="row schedule-item">
+                              <div class="col-md-5"><time><h6>April 21, 2019</h6></time></div>
+                              <div class="col-md-7">
+                                <h6><b>Registration due</b></h6>
+                                <p> </p>
+                              </div>
+                           </div>
+
+                           <div class="row schedule-item">
+                              <div class="col-md-5"><time><h6>April 29-30, 2019</h6></time></div>
+                              <div class="col-md-7">
+                                  <h6><b>Event</b></h6>
+                                <p> </p>
+                              </div>
+                           </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  <!--==========================
+    End main
+  ============================-->
+
+    <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 footer-info">
+            <img src="../../img/logo.png" alt="TheEvenet">
+            
+          </div>
+
+          <div class="col-sm-3">
+          </div>
+          <div class="col-sm-3">
+            <h4>Contact Us</h4>
+            <div class="social-links">
+                <p>
+                  Department of Computer Science <br />
+                  FST Mohammedia<br />
+                  Morocco <br />
+                  <strong>Phone:</strong> +212 672 07 91 41<br />
+
+                  <strong>Email:</strong> indabaXmorocco@gmail.com<br />
+                  <a href="https://twitter.com/indabaXmorocco" class="twitter"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                  <!--<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>-->
+                </p>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="../../lib/jquery/jquery.min.js"></script>
+    <script src="../../lib/jquery/jquery-migrate.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../lib/easing/easing.min.js"></script>
+    <script src="../../lib/superfish/hoverIntent.js"></script>
+    <script src="../../lib/superfish/superfish.min.js"></script>
+    <script src="../../lib/wow/wow.min.js"></script>
+    <script src="../../lib/venobox/venobox.min.js"></script>
+    <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
